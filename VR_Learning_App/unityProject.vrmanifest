@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.bachelorsteamvrarbeit.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\bernd\\Unity Projekte\\Bachelor SteamVR Arbeit\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Bachelor SteamVR Arbeit [Testing]"
+        }
+      }
+    }
+  ]
+}
