@@ -1112,13 +1112,13 @@ HingeJoint:
   m_GameObject: {fileID: 397142478}
   m_ConnectedBody: {fileID: 1482244250}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: 1}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 20
-    damper: 3
+    spring: 0
+    damper: 1
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -1256,7 +1256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.22
+      value: 0.87
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1343,7 +1343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.13
+      value: 0.842
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1553,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.92
+      value: -0.868
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1561,7 +1561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.06
+      value: -0.076
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1727,10 +1727,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 211787670508714839, guid: 0d14e408bca3f2242b1dd2cabea54c48,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d14e408bca3f2242b1dd2cabea54c48,
         type: 3}
       propertyPath: m_Name
       value: Gyroscope.fbx_Inner_Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741040849119613696, guid: 0d14e408bca3f2242b1dd2cabea54c48,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958629490280909012, guid: 0d14e408bca3f2242b1dd2cabea54c48,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d14e408bca3f2242b1dd2cabea54c48, type: 3}
@@ -1796,10 +1811,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6434789752262658175, guid: 123783dac6c581840a29d60ff5d40e57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -5808741024708152713, guid: 123783dac6c581840a29d60ff5d40e57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 211787670508714839, guid: 123783dac6c581840a29d60ff5d40e57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 123783dac6c581840a29d60ff5d40e57,
         type: 3}
       propertyPath: m_Name
       value: Gyroscope.fbx_Middle_Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741040849119613696, guid: 123783dac6c581840a29d60ff5d40e57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 123783dac6c581840a29d60ff5d40e57, type: 3}
@@ -1906,7 +1941,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d255c8cf573e9894e9edaff1badbedba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d255c8cf573e9894e9edaff1badbedba,
         type: 3}
@@ -2316,13 +2351,13 @@ HingeJoint:
   m_GameObject: {fileID: 1482244248}
   m_ConnectedBody: {fileID: 2133239847}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: 1}
+  m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 20
-    damper: 3
+    spring: 0
+    damper: 1
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -2577,7 +2612,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f5d2597e8ba505748ac0f8065fbaaf56,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f5d2597e8ba505748ac0f8065fbaaf56,
         type: 3}
@@ -3127,10 +3162,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6434789752262658175, guid: 6ca75c8a8562c93408f6a443c2c642b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5808741024708152713, guid: 6ca75c8a8562c93408f6a443c2c642b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2713610342760964062, guid: 6ca75c8a8562c93408f6a443c2c642b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 916299711012698231, guid: 6ca75c8a8562c93408f6a443c2c642b9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b0a8c31658715aa469a98fb7e86663dc, type: 2}
     - target: {fileID: 919132149155446097, guid: 6ca75c8a8562c93408f6a443c2c642b9,
         type: 3}
       propertyPath: m_Name
       value: Gyroscope.fbx_Outer_Ring
+      objectReference: {fileID: 0}
+    - target: {fileID: 8306466937260263407, guid: 6ca75c8a8562c93408f6a443c2c642b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca75c8a8562c93408f6a443c2c642b9, type: 3}
@@ -3149,13 +3209,13 @@ HingeJoint:
   m_GameObject: {fileID: 2133239845}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 1, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 20
-    damper: 3
+    spring: 0
+    damper: 1
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:

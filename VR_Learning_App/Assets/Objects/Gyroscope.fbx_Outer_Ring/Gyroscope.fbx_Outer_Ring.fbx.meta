@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: OuterRing
     second: {fileID: 2100000, guid: 4fd1fd4e6a46b77438f6a02e53399138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: b0a8c31658715aa469a98fb7e86663dc, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

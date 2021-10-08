@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MiddleRing
     second: {fileID: 2100000, guid: e2dddb8368b42504ebf33b9dc71cdf5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: b0a8c31658715aa469a98fb7e86663dc, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

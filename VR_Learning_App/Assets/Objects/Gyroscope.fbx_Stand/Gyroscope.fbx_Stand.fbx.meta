@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: b0a8c31658715aa469a98fb7e86663dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Stand
     second: {fileID: 2100000, guid: ab6815f51b1eb10408aff3521e03d7af, type: 2}
   materials:
