@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8FB7843C-16B9-E86A-6251-DC85FBF49A3A}</ProjectGuid>
+    <ProjectGuid>{FF5E24E1-4AFE-8D7E-7D89-F8684281386D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Input_Editor</AssemblyName>
@@ -52,6 +52,9 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.4.30f1</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_CopyExampleInputFiles.cs" />
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_ActionManifest_Manager.cs" />
@@ -275,6 +278,9 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>C:\Program Files\Unity\2019.4.30f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.8.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -286,9 +292,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.8.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -650,6 +653,9 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:\Program Files\Unity\2019.4.30f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.OpenVR">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -665,7 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{83A158B7-86AD-FC17-42C2-8134F694CABC}</Project>
+      <Project>{9D1C5381-D9A4-09C7-1657-E0EAA7BB72C0}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>
