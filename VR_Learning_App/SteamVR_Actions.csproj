@@ -281,6 +281,9 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.8.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
+    <Reference Include="Ionic.Zip.Unity">
+      <HintPath>Assets\Plugins\Ionic.Zip.Unity.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\2019.4.30f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
     </Reference>
